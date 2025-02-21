@@ -7,8 +7,8 @@ num2 = float(input("digite um segundo numero: "))
 soma = num1 + num2 
 print("a soma destes numeros e de:",soma)
 resp = str(input("voce deseja adcionar mais algum numero (s/n)"))
-while soma == "s".lower:
- num = float("difite outro numero:")
- soma + num
- resp = input("voce deseja adcionar mais algum numero (s/n)")
- print("a soma destes numeros e de:",soma)2
+while resp == "s":
+    num = float(input("difite outro numero:"))
+    soma += num
+    resp = input("voce deseja adcionar mais algum numero (s/n)")
+print("a soma destes numeros e de:",soma)
